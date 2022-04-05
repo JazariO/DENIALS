@@ -29,7 +29,7 @@ function Conversation() {
         //clear array2
         array2.splice(0, array.length);
         document.getElementById("brief").innerHTML = '';
-        document.getElementById("brief2").style.color = "#ddce43";
+        document.getElementById("brief2").style.color = "#eedf54";
 
         //document.getElementById("brief3").innerHTML = 'The array sliced has: ' + array2;
     } else if (array2.length == 0) {
