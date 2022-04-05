@@ -42,17 +42,6 @@ body {
     font-size: 17px;
 }
 
-.titlebreaker {
-    background-color: #000000;
-    width: 5px;
-    height: 48px;
-    float: right;
-    border-color: #efefef;
-    border-left-color: #cdcdcd;
-    border-style: solid;
-    border-width: 1px;
-}
-
 .titlemenu {
     font-size: 16px;
     background-color: #000000;
@@ -60,12 +49,6 @@ body {
     text-align: right;
     width: 250px;
     float: right;
-}
-
-.phraseBox {
-    float: right;
-    margin-top: 100px;
-    margin-right: 12%;
 }
 
 .container {
