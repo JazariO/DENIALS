@@ -22,31 +22,22 @@
                 <h4>A conversational performance, by Muzi.</h4>
             </header>
             <header class="phrase">
-
             </header>
         </div>
-        <!--<div class="titlebreaker"></div>-->
     </div>
-
-    <!--<div class="phraseBox">
-<section class="landingphrase">
-			<p>
-				Generate design proposals!
-			</p>
-		</section>
-</div>
-<div class="landingslideshow">
-</div>-->
-
-    <div class="container">
+		<div class="container">
         <div class="genbox">
-            <button class="genbutton" type="button" onclick="Conversation()">Click for a denial</button>
+            <button style="margin-right: 15px" id="genbut" class="genbutton" type="button" onclick="Conversation()">Speaker 1</button>
+				<button style="margin-left: 15px" id="genbut2" class="genbutton" type="button" onclick="Conversation2()">Speaker 2</button>
+				<button style="display:none" id="genbut3" class="genbutton" type="button" onclick="Conversation()">Click for a denial</button>
+				<button style="display:none" id="genbut4" class="genbutton" type="button" onclick="Conversation2()">Click for a denial</button>
+
             <header class="outputHeader">
 
             </header>
             <div id="brief" class="outputbrief">
             </div>
-            <p id="brief2" class="outputbrief">
+            <p style="text-align: center" id="brief2" class="outputbrief">
             </p>
             <footer class="outputFooter">
             </footer>
@@ -68,7 +59,6 @@
             <div class="nails"><sup style="font-size: 10px;"></sup></div>
         </div>
     </div>
-    <!--end container-->
 </body>
 
 </html>
